@@ -1,0 +1,16 @@
+.flexContainer {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    background-color:bisque;
+    color: darkslategray;
+    border-color: black;
+    margin: 10px;
+    padding-block: 1rem;
+    }
+
+    #clickedHeader {
+        color:darkgoldenrod;
+        font-size: 2rem;
+        text-align: center;
+    }

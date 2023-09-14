@@ -1,0 +1,7 @@
+.flexContainer {
+display: flex;
+flex-flow: wrap row;
+background-color: azure;
+color: darkslategray;
+}
+
