@@ -1,55 +1,76 @@
-.flexContainer {
+.flexContainer { /*what's this for again*/
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
     background-color:aliceblue;
     color: darkslategray;
     margin: 1rem;
-    padding-block: 1rem;
+    padding-block: 1rem; /*ah it's for the big white box at the bottom*/
     }
 
-    #clickedHeader {
+    #clickedHeader {/*special guest that is, sometimes, an actual header*/
         color:aliceblue;
         font-size: 2rem;
         text-align: center;
     }
+        body {
+            background-image: url("landscape-1858602_1280.jpg");
+            background-size: auto; /*might be better with cover??*/
+            background-position: center; body;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
 
-    body {
-        background-image: /*insert url or link or whatever*/;
-        background-size: auto;
-        background-position: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    header {
-        background-color: rgba(24, 7, 57, 0.5);
-            padding: 2rem;
+        header {
+        background-color: rgba(11, 41, 51, 0.5);
             color: aliceblue;
+            padding: 2rem;
     }
 
-    .navbar { /*this thing isn't working like i want it to; FIX*/
+    .navbar { /**/
         display: flex;
+        justify-content: space-around;
         list-style: none;
         flex-flow: wrap-row;
-        justify content: space-around;
-        align-items: space-between;
+        align-items: center;
+        font-size: larger;
     }
 
-    .seethru {
+    .seethru { /*bigboy welcome box*/
         text-align: center;
         padding: 3rem;
     }
 
-    .sectionText {
-        background-color:rgba(24, 7, 57, 0.5);
+    .sectionText { /*smaller text below seethru*/
+        background-color:rgba(11, 41, 51, 0.5); 
         padding: 2rem; /*research if using rem is good enough*/
         color: aliceblue;
     }
 
-    .seethru-2 {
-        background-color: rgba(24, 7, 57, 0.5);
+    .seethru-2 { /*smaller box further down the page*/
+        background-color: rgba(11, 41, 51, 0.5);
         color:aliceblue;
         text-align: center; /*NOT centered on desktop, gotta fix so it's left-hand aligned*/
     }
+
+        footer {
+            text-align: center;
+            color: aliceblue;
+    }
+
+        a:link {
+            color:darkgoldenrod;
+        }
+
+        a:visited {
+            color:rgb(226, 171, 71);
+        }
+
+        a:active {
+            color:darkolivegreen;
+        }
+
+        a:hover {
+            color:rgb(254, 215, 141);
+        }
 
     /*need to fix the media with these so they work on all platforms*/
