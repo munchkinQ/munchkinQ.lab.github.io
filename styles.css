@@ -2,15 +2,54 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
-    background-color:bisque;
+    background-color:aliceblue;
     color: darkslategray;
-    border-color: black;
-    margin: 10px;
+    margin: 1rem;
     padding-block: 1rem;
     }
 
     #clickedHeader {
-        color:darkgoldenrod;
+        color:aliceblue;
         font-size: 2rem;
         text-align: center;
     }
+
+    body {
+        background-image: /*insert url or link or whatever*/;
+        background-size: auto;
+        background-position: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        background-color: rgba(24, 7, 57, 0.5);
+            padding: 2rem;
+            color: aliceblue;
+    }
+
+    .navbar { /*this thing isn't working like i want it to; FIX*/
+        display: flex;
+        list-style: none;
+        flex-flow: wrap-row;
+        justify content: space-around;
+        align-items: space-between;
+    }
+
+    .seethru {
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .sectionText {
+        background-color:rgba(24, 7, 57, 0.5);
+        padding: 2rem; /*research if using rem is good enough*/
+        color: aliceblue;
+    }
+
+    .seethru-2 {
+        background-color: rgba(24, 7, 57, 0.5);
+        color:aliceblue;
+        text-align: center; /*NOT centered on desktop, gotta fix so it's left-hand aligned*/
+    }
+
+    /*need to fix the media with these so they work on all platforms*/

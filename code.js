@@ -12,7 +12,7 @@ function colorChange() {
         document.getElementById("clickedHeader").style.color = "darkmagenta"
         color = 1
     } else {
-        (document.getElementById("clickedHeader").style.color = "darkgoldenrod")
+        (document.getElementById("clickedHeader").style.color = "aliceblue")
         color = 0
     }
 }
@@ -38,6 +38,5 @@ function buttonClick() {
     } else {
         alert("Jag sa att den inte gör något, sluta klicka!")
     }
-    ;
 
 }
