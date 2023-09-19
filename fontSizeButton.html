@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sizes</title>
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="tablet.css">
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 501px) and (max-width: 700px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px)" href="desktop.css">
 </head>
 <body>
     
-    <div>
-        <p id="clickedHeader">Välkomna till min Laborations-hemsida!</p>
-    </div>
+    <nav>
+        <ul class="navbar" id="links">
+            <li><a href="index.html">Back Home</a>
+            </li>
+            <li><a href="countButton.html">1st Button</a>
+            </li>
+            <li><a href="colorButton.html">3rd Button</a>
+            </li>
+            <li><a href="otherButton.html">4th Button</a>
+            </li>
+        </ul>
+    </nav>
 
-    <button onclick="sizeChange()">Change size!</button>
+        <section class="seethru">
+            <div class="sectionText">
+                <h1 id="clickedHeader">Tre knappar gick in på en bar...</h1>
+                <p>... eller inte, knappar kan inte gå.</p>
+            </div></section>
+
+    <center><button onclick="sizeChange()">Change size!</button></center>
+
+    <footer>Här kan jag kommentera på att det brukade finnas knappskämt som placeholder iställer för whatever I end up with.</footer>
 
     <script src="code.js"></script>
 

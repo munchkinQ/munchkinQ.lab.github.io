@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Count</title>
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="tablet.css">
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 501px) and (max-width: 700px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px)" href="desktop.css">
 </head>
 <body>
     
-    <button onclick="clickButton()">Click me!</button>
+    <nav>
+        <ul class="navbar" id="links">
+            <li><a href="index.html">Back Home</a>
+            </li>
+            <li><a href="fontSizeButton.html">2nd Button</a>
+            </li>
+            <li><a href="colorButton.html">3rd Button</a>
+            </li>
+            <li><a href="otherButton.html">4th Button</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="seethru">
+        <div class="sectionText">
+            <h1 id="clickedHeader">Vad sa den ena knappen till den andra?</h1>
+            <p>Ingenting, knappar kan inte prata.</p>
+        </div></section>
+
+    <center><button onclick="clickButton()">Click me!</button></center>
+
+    <footer>Här kan det stå någon om knappen i sig, JavaScript å så</footer>
 
     <script src="code.js"></script>
 

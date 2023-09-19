@@ -17,13 +17,14 @@
             background-image: url("landscape-1858602_1280.jpg");
             background-size: auto; /*might be better with cover??*/
             background-position: center; body;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family:'Courier New', Courier, monospace;
         }
 
         header {
         background-color: rgba(11, 41, 51, 0.5);
             color: aliceblue;
-            padding: 2rem;
+            display: flex;
+            flex-flow: wrap row;
     }
 
     .navbar { /**/
@@ -36,7 +37,6 @@
     }
 
     .seethru { /*bigboy welcome box*/
-        text-align: center;
         padding: 3rem;
     }
 
@@ -62,7 +62,7 @@
         }
 
         a:visited {
-            color:rgb(226, 171, 71);
+            color:rgb(225, 155, 14);
         }
 
         a:active {
@@ -73,4 +73,20 @@
             color:rgb(254, 215, 141);
         }
 
+      
+
+        
+
+
+        /*button {
+            display: flex;
+            background-color: darkolivegreen;
+            padding: 5px;
+            color: aliceblue;
+            border-style: solid;
+            border-color: rgb(46, 58, 25);
+            border-width: 2px;
+            align-items: center;
+        }*/
+        
     /*need to fix the media with these so they work on all platforms*/
