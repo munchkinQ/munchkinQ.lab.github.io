@@ -1,24 +1,21 @@
-.flexContainer { /*what's this for again*/
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-around;
-    background-color:aliceblue;
-    color: darkslategray;
-    margin: 1rem;
-    padding-block: 1rem; /*ah it's for the big white box at the bottom*/
-    }
-
-    #clickedHeader {/*special guest that is, sometimes, an actual header*/
+    #clickedHeader {
         color:aliceblue;
         font-size: 40px;
         text-align: center;
     }
-        body {
+        .body-buttons {
             background-image: url("forest-3622519_1280");
-            background-size: auto; /*might be better with cover??*/
+            background-size: auto; 
             background-position: center; body;
             font-family:'Courier New', Courier, monospace;
         }
+
+        #body-index {
+            background-image: url("landscape-1858602_1280.jpg");
+            background-size: cover;
+            background-position: center; body;
+            font-family:'Courier New', Courier, monospace;
+    }
 
         header {
         background-color: rgba(11, 41, 51, 0.5);
@@ -26,7 +23,7 @@
             padding: 0rem;
     }
 
-    .navbar { /**/
+    .navbar { 
         display: flex;
         justify-content: space-around;
         list-style: none;
@@ -35,26 +32,40 @@
         align-items: flex-start;
     }
 
-    .seethru { /*bigboy welcome box*/
+    .seethru {
         padding: 2rem;
         margin-bottom: 2rem;
     }
 
     p {
         font-size: larger;
+        text-align: center;
     }
 
-    .sectionText { /*smaller text below seethru*/
+    .sectionText {
         background-color:rgba(9, 43, 15, 0.5); 
-        padding: 2rem; /*research if using rem is good enough*/
+        padding: 2rem; 
         color: aliceblue;
         text-align: center;
     }
 
-    .seethru-2 { /*smaller box further down the page*/
+    .seethru-2 { 
         background-color: rgba(9, 43, 15, 0.5);
         color:aliceblue;
-        text-align: center; /*NOT centered on desktop, gotta fix so it's left-hand aligned*/    }
+        text-align: center; 
+    }
+
+    .sectionTextIndex {
+        background-color:rgba(11, 41, 51, 0.5); 
+        padding: 2rem; 
+        color: aliceblue;
+    }
+
+    .seethru-2-index { 
+        background-color: rgba(11, 41, 51, 0.5);
+        color:aliceblue;
+        text-align: center; 
+    }
 
         footer {
             text-align: center;
@@ -80,7 +91,10 @@
             color:rgb(201, 133, 7);
         }
 
-        
+        .button {
+            text-align: center;
+        }
+
         button {
             background-color: darkolivegreen;
             padding: 10px;
@@ -97,5 +111,3 @@
             transition-duration: 1.5s;
             transition-delay: 0.1s;
         }
-
-    /*need to fix the media with these so they work on all platforms*/

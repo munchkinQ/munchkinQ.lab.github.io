@@ -9,7 +9,7 @@ var color = 0
 
 function colorChange() { //changes color of the clickedHeader-header
     if (color == "0") {
-        (document.getElementById("clickedHeader").style.color = "darkgoldenrod")
+        (document.getElementById("clickedHeader").style.color = "maroon")
         color = 1
     } else {
         (document.getElementById("clickedHeader").style.color = "aliceblue")

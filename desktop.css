@@ -1,6 +1,117 @@
-.flexContainer {
-    display: flex;
-    flex-flow: wrap row;
-    background-color: azure;
-    color: darkslategray;
+
+    #clickedHeader {/*special guest that is, sometimes, an actual header*/
+        color:aliceblue;
+        font-size: 40px;
+        text-align: start;
     }
+        .body-buttons {
+            background-image: url("forest-3622519_1280");
+            background-size: cover;
+            background-position: center; body;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        #body-index {
+            background-image: url("landscape-1858602_1280.jpg");
+            background-size: cover; 
+            background-position: center; body;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        header {
+        background-color: rgba(11, 41, 51, 0.5);
+            color: aliceblue;
+            padding: 0rem;
+    }
+
+    .navbar { /**/
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        flex-flow: wrap-row;
+        font-size: larger;
+        }
+
+    .seethru { /*bigboy welcome box*/
+        padding: 2rem;
+        margin-bottom: 0rem;
+        margin-right: 45%;
+    }
+
+    p {
+        font-size: larger;
+    }
+
+    .sectionText { 
+        background-color:rgba(9, 43, 15, 0.5); 
+        padding: 2rem; 
+        color: aliceblue;
+        text-align: start;
+    }
+
+    .seethru-2 {
+        background-color: rgba(9, 43, 15, 0.5);
+        color:aliceblue;
+        text-align: start;  
+    }
+    
+    .sectionTextIndex {
+        background-color:rgba(11, 41, 51, 0.5); 
+        padding: 2rem;
+        color: aliceblue;
+        text-align: start;
+    }
+    
+    .seethru-2-index { 
+        background-color: rgba(11, 41, 51, 0.5);
+        color:aliceblue;
+        text-align: start; 
+    }
+
+        footer {
+            text-align: center;
+            color: aliceblue;
+            padding: 12%;
+            font-size: larger;
+    }
+
+        a:link {
+            color:darkgoldenrod;
+            font-size: larger;
+        }
+
+        a:visited {
+            color:rgb(225, 155, 14);
+        }
+
+        a:active {
+            color:darkolivegreen;
+        }
+
+        a:hover {
+            color:rgb(201, 133, 7);
+        }
+
+        
+        button {
+            background-color: darkolivegreen;
+            padding: 30px;
+            color: aliceblue;
+            border-style: outset;
+            border-color: rgb(60, 77, 31);
+            border-width: 2px;
+            font-family: monospace;
+            font-size: xx-large;
+            margin-left: 2rem;
+        }
+        
+        button:hover {
+            padding: 2.5%;
+            transition-duration: 1.5s;
+            transition-delay: 0.1s;
+        }
+
+        #belowText { /*don't really think this does much, but I'm scared to delete it*/
+            position: relative;
+            text-align: center;
+        }
